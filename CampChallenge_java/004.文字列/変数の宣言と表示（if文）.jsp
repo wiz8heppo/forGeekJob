@@ -4,6 +4,8 @@
     Author     : heppo
 --%>
 
+<%@page import="java.util.HashMap"%>
+<%@page import="java.util.Map"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,12 +14,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1><%@page import="java.util.Random"%>
-<%
-int geek = new Random().nextInt(3);
-if (geek == 1) out.print("1です");
-else if (geek == 2) out.print("プログラミングキャンプ");
-else out.print("その他です");
-%></h1>
+        <h1><%
+            out.print("groove"+"-"+"gear");
+        %></h1>
     </body>
 </html>
